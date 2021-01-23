@@ -1,0 +1,14 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "declaration": false,
+    "baseUrl": ".",
+    "paths": {
+      "@services/*": ["services/*"],
+      "@components/*": ["components/*"],
+      "@containers/*": ["containers/*"],
+      "@src/*": ["../src/*"],
+      "@/*": ["./*"]
+    }
+  }
+}
